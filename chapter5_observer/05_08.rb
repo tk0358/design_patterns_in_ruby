@@ -1,5 +1,5 @@
-#push型のObserverパターン
-
+#push型のObserverパターン  
+# for git 
 module Subject
   def initialize
     @observers = []
