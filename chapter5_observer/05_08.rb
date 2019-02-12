@@ -1,4 +1,4 @@
-#push型のObserverパターン
+#push型のObserverパターン  
 
 module Subject
   def initialize
