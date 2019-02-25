@@ -1,4 +1,5 @@
 # 仮想プロキシーの実装（バージョン２）
+
 class BankAccount
   attr_reader :balance
 
