@@ -23,7 +23,7 @@ class AccountProtectionProxy
 
   def check_access
     if Etc.getlogin != @owner_name
-      raise 'Illeagal access: #{Etc.getlogin} cannot access account.'
+      raise "Illeagal access: #{Etc.getlogin} cannot access account."
     end
   end
 end
